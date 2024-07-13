@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #fff;
+        }
+        nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+        }
+        nav ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        .profile-container {
+            text-align: center;
+            padding: 150px 50px;
+        }
+        .profile-container img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .profile-container h1 {
+            margin: 20px 0 10px;
+            font-size: 2.5em;
+        }
+        .profile-container h2 {
+            margin: 10px 0;
+            font-size: 1.5em;
+            color: #777;
+        }
+        .buttons {
+            margin: 20px 0;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            border: 2px solid #333;
+            background-color: #fff;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .buttons button:hover {
+            background-color: #333;
+            color: #fff;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+        }
+        .social-links img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="name">John Doe</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="profile-container">
+        <img src="../Page chancelier/img/" alt="John Doe">
+        <h1>Hello, I'm John Doe</h1>
+        <h2>Frontend Developer</h2>
+        <div class="buttons">
+            <button>Download CV</button>
+            <button>Contact Info</button>
+        </div>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank"><img src="linkedin-logo.png" alt="LinkedIn"></a>
+            <a href="https://github.com/yourprofile" target="_blank"><img src="github-logo.png" alt="GitHub"></a>
+        </div>
+    </div>
+</body>
+</html>
